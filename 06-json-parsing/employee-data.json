@@ -1,0 +1,165 @@
+{
+    "employees": [
+      {
+        "employee_number": "E001",
+        "name": "John Doe",
+        "designation": "Software Engineer",
+        "date_of_joining": "2015-06-01",
+        "department": "IT",
+        "branch_office_address": {
+          "street": "123 Tech Park",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94105",
+          "country": "USA"
+        },
+        "phone_number": "+1-415-555-0123",
+        "rating": 1
+      },
+      {
+        "employee_number": "E002",
+        "name": "Jane Smith",
+        "designation": "DevOps Engineer",
+        "date_of_joining": "2018-09-15",
+        "department": "Operations",
+        "branch_office_address": {
+          "street": "456 Cloud Blvd",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10001",
+          "country": "USA"
+        },
+        "phone_number": "+1-212-555-4567",
+        "rating": 5
+      },
+      {
+        "employee_number": "E003",
+        "name": "Samuel Johnson",
+        "designation": "Data Analyst",
+        "date_of_joining": "2020-01-10",
+        "department": "Analytics",
+        "branch_office_address": {
+          "street": "789 Data Lane",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60606",
+          "country": "USA"
+        },
+        "phone_number": "+1-312-555-7890",
+        "rating": 3
+      },
+      {
+        "employee_number": "E004",
+        "name": "Emily Davis",
+        "designation": "HR Manager",
+        "date_of_joining": "2016-03-23",
+        "department": "Human Resources",
+        "branch_office_address": {
+          "street": "123 Corporate Plaza",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90015",
+          "country": "USA"
+        },
+        "phone_number": "+1-213-555-2468",
+        "rating": 4
+      },
+      {
+        "employee_number": "E005",
+        "name": "Michael Brown",
+        "designation": "Project Manager",
+        "date_of_joining": "2012-11-05",
+        "department": "Management",
+        "branch_office_address": {
+          "street": "500 Business St",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "USA"
+        },
+        "phone_number": "+1-206-555-3690",
+        "rating": 4
+      },
+      {
+        "employee_number": "E006",
+        "name": "Olivia Wilson",
+        "designation": "Cloud Architect",
+        "date_of_joining": "2019-07-18",
+        "department": "IT",
+        "branch_office_address": {
+          "street": "321 Innovation Dr",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78701",
+          "country": "USA"
+        },
+        "phone_number": "+1-512-555-7891",
+        "rating": 5
+      },
+      {
+        "employee_number": "E007",
+        "name": "David Martinez",
+        "designation": "QA Engineer",
+        "date_of_joining": "2017-12-12",
+        "department": "Quality Assurance",
+        "branch_office_address": {
+          "street": "700 Test Blvd",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85001",
+          "country": "USA"
+        },
+        "phone_number": "+1-602-555-1234",
+        "rating": 3
+      },
+      {
+        "employee_number": "E008",
+        "name": "Sophia Moore",
+        "designation": "System Administrator",
+        "date_of_joining": "2014-05-29",
+        "department": "Operations",
+        "branch_office_address": {
+          "street": "1500 Techno Ave",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02110",
+          "country": "USA"
+        },
+        "phone_number": "+1-617-555-5678",
+        "rating": 4
+      },
+      {
+        "employee_number": "E009",
+        "name": "Chris Garcia",
+        "designation": "UX Designer",
+        "date_of_joining": "2019-02-14",
+        "department": "Design",
+        "branch_office_address": {
+          "street": "300 Design Ct",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97205",
+          "country": "USA"
+        },
+        "phone_number": "+1-503-555-9876",
+        "rating": 5
+      },
+      {
+        "employee_number": "E010",
+        "name": "Liam Harris",
+        "designation": "Frontend Developer",
+        "date_of_joining": "2021-04-10",
+        "department": "IT",
+        "branch_office_address": {
+          "street": "110 Web St",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80203",
+          "country": "USA"
+        },
+        "phone_number": "+1-303-555-1011",
+        "rating": 4
+      }
+    ]
+  }
+  

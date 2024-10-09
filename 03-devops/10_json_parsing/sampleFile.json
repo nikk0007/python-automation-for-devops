@@ -1,0 +1,10 @@
+{
+  "application_name": "My Application",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "database": {
+    "url": "mysql://username:password@localhost:3306/mydatabase"
+  }
+}

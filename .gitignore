@@ -1,0 +1,78 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.venv/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtualenv
+.env/
+.vscode/
+.virtualenv/
+Pipfile.lock
+poetry.lock
+
+# Python debug and test output
+*.log
+*.out
+*.err
+coverage.xml
+nosetests.xml
+test_*.xml
+.hypothesis/
+.tox/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.terraform/
+crash.log
+.terraformrc
+terraform.tfvars
+*.backup
+
+# JavaScript / Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+coverage/
+.env
+
+# Logs
+*.log
+logs/
+
+# RSA keys (IMPORTANT: Do not track private keys!)
+*.pem
+*.key
+*.pub
+*.der
+id_rsa
+id_rsa.pub
+
+# Do not commit any file named 'mykey'
+mykey
+mykey.*
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+*.iml
+*.class
+.vscode/
+
+# Ignore any generated documentation
+docs/_build/

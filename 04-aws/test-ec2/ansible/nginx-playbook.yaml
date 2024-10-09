@@ -1,0 +1,20 @@
+---
+- name: Install and Start Nginx on Ubuntu
+  hosts: webserver
+  become: yes  # Gain sudo privileges
+  tasks:
+  
+    - name: Update the apt package index
+      apt:
+        update_cache: yes
+    
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+    
+    - name: Ensure Nginx is started and enabled
+      service:
+        name: nginx
+        state: started
+        enabled: yes
