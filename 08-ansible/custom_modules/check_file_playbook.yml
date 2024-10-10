@@ -1,0 +1,13 @@
+---
+- name: Check if a file exists on EC2 instance
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Check if the file exists
+      check_file:
+        path: /tmp/workshop/niket.txt  # Update this path to the file you want to check
+      register: result
+
+    - name: Display the result of the file check
+      debug:
+        msg: "{{ result.file_check_message }}"

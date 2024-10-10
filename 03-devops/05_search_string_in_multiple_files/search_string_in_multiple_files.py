@@ -10,15 +10,15 @@ def search_files(directory, pattern, search_string):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
                 contents = f.read()
-                if regex.search(contents) and search_string in contents:
+                if search_string in contents:
                     matches.append(file_path)
 
     return matches
 
 # Example usage
-directory = 'path/to/directory'  # Specify the directory to search in
-pattern = r'\.txt$'  # Specify the file pattern using a regular expression
-search_string = 'example'  # Specify the string to search for
+directory = '.'  # Specify the directory to search in
+pattern = r'\.py$'  # Specify the file pattern using a regular expression
+search_string = 'import os'  # Specify the string to search for
 
 results = search_files(directory, pattern, search_string)
 if results:

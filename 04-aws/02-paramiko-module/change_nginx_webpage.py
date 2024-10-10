@@ -12,7 +12,7 @@ def execute_commands(ssh_client, commands):
 
 def main():
     # Remote server details
-    remote_ip = '3.92.57.155'  # Replace with your EC2 instance public IP
+    remote_ip = '54.198.171.161'  # Replace with your EC2 instance public IP
     remote_user = 'ubuntu'  # Change if necessary
     private_key_path = './mykey'  # Path to your private key
 

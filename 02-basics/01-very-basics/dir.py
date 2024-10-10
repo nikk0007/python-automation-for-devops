@@ -1,6 +1,6 @@
 # Use dir() to list all the methods and attributes available for a string object
 # "" represents an empty string
-print(dir(""))  # Lists string methods and attributes
+print(dir("yyy"))  # Lists string methods and attributes
 
 print("\n")
 

@@ -47,5 +47,7 @@ if __name__ == "__main__":
     joined_path = join_paths(current_dir, subdir)
     print(f"Joined Path: {joined_path}")
 
+    # os.path.join automatically handles the appropriate directory separator (/ on Linux/macOS, \ on Windows). It ensures that paths are correctly formed regardless of the operating system.
+
     # Check if the joined path exists
     print(check_path_type(joined_path))

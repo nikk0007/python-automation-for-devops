@@ -24,7 +24,7 @@ def fetch_json(url):
         return None
 
 # URL of the JSON file
-url = "http://3.92.57.155/employees.json"
+url = "http://54.88.211.76/employees.json"
 
 # Fetch the JSON data
 json_data = fetch_json(url)

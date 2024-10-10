@@ -28,4 +28,4 @@ def exec_command_in_pod(namespace, pod_name, command):
     print(f"Command output: {response}")
 
 if __name__ == "__main__":
-    exec_command_in_pod("default", "my-nginx-74d7fb65c9-bn8dw", "ls /")  # Replace with your pod name and command
+    exec_command_in_pod("default", "my-nginx-74d7fb65c9-8gxnf", "ls /")  # Replace with your pod name and command

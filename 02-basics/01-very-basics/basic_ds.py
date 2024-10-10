@@ -9,7 +9,7 @@ def manage_server_ips():
     # Remove a server IP that is decommissioned
     server_ips.remove('192.168.1.2')
     
-    print("Updated server IP list:", server_ips)
+    print(f"Updated server IP list: {server_ips}")
     return server_ips
 
 # Function to demonstrate usage of Tuple (Example: Immutable cloud instance configuration)
@@ -33,6 +33,9 @@ def manage_container_images():
     # Check if an image exists
     if 'redis:5' in container_images:
         print("redis:5 is available.")
+
+    # try to add duplicate item. It wont have any effect
+    container_images.add('nginx:1.19')
     
     # Remove an old image
     container_images.discard('alpine:3.12')
@@ -68,7 +71,3 @@ if __name__ == "__main__":
     manage_resource_limits()
 
 print(f"__name__ = {__name__}")
-# manage_server_ips()
-# cloud_instance_config()
-# manage_container_images()
-# manage_resource_limits()
